@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Svastik Kanwar Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="download.ico">  <!-- used to display logo on title tab!-->
+  <link rel="stylesheet" href="CSS/index.css">
+  <style>
+    #logo{
+      text-decoration-color: blanchedalmond;
+    }
+    #extra{
+      z-index: 100;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Adjust as needed: cover, contain, fill, etc. */
+      position: relative;
+      top: -30px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">About Me</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="./pexel.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h1 style="color:white"> I am Svastik Kanwar </h1>
+      <h1 style="color: yellowgreen;">Junior(3rd year) Undergraduate at NIT Kurukshetra(INDIA)</h1>
+      <p>  </p>
+      <a href="#">Download Resume</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.linkedin.com/in/svastik-kanwar-7sk%C3%A0ezr73/?originalSubdomain=in" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-1024.png" style="height: 62px;width: 62px;"></a></li>
+      <li><a href="https://twitter.com/Svastik_Kanwar"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/svastik.kanwar/" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      <!--  Target="_blank"  for new page opening-->
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <!-- partial -->
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
