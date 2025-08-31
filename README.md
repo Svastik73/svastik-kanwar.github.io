@@ -7,6 +7,9 @@ Defunct Website
 ##Why is the git push command rejected, and how do you deal with it?
 #you have to "fetch first." Use the commands:
 ```sh
+do these step within your repo file path!
+```
+```sh
 git fetch origin main
 ```
 
